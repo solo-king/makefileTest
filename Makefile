@@ -1,5 +1,5 @@
-a:=1
-b:=2
+a=xy
+y=$(a)bar
+a=xcf
 all:
-	echo $(a)
-	echo ${b}
+	echo y=:$y
