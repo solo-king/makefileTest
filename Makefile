@@ -1,5 +1,7 @@
-a:=xy
+a+=xy
+a+=c
+a+=b
+a+=c
 y:=$(a)bar
-a:=xcf
 all:
-	echo y=:$y
+	echo y=$y
