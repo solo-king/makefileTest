@@ -1,7 +1,5 @@
-a+=xy
-a+=c
-a+=b
-a+=c
+#a:=xy
+a?=es
 y:=$(a)bar
 all:
 	echo y=$y
