@@ -1,7 +1,5 @@
-text1:= ganye is best!!
-findText:=ga
-text3:=$(findstring $(findText), $(text1))
-
+text1:= 1.c 2.c 3.c 4.c
+text3:=$(foreach tempValue, $(text1), $(tempValue).cmd)
 
 all:
 	echo $(text3)
