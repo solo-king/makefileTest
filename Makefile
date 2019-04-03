@@ -1,7 +1,7 @@
 value1:=1
 value2:=2
 
-ifeq ($(value1), $(value2))
+ifneq ($(value1), $(value2))
 	value3 = 1
 else
 	value3 = 2
