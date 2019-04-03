@@ -1,4 +1,4 @@
-cSources:=$(wildcard *.c)
+cSources:=$(wildcard *.c *.cc)
 javaSources:=$(wildcard *.java)
 cObjects:=$(patsubst %.c, %.o, $(cSources))
 javaClasses:=$(patsubst %.java, %.class, $(javaSources))
